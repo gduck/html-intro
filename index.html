@@ -4,19 +4,23 @@
 <!-- This is some comments -->
 
 <head>
-    <title>
-    </title>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+    <meta name="Description" content="Some html practice">
+    <script src="myJavascript.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>Dale's boring HTML</h1>
+        <h1 id="mytitle">Dale's boring HTML</h1>
     </header>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="mailto:dalefoo@gmail.com?Subject=Hello" target="top">Send Mail</a>
-        <a href="http://www.thefoos.net">My Page</a>
+      <ul>
+        <li><a href="index.html" class="navbar">Home</a></li>
+        <li><a href="mailto:dalefoo@gmail.com?Subject=Hello" class="navbar" target="top">Send Mail</a></li>
+        <li><a href="http://www.thefoos.net" class="navbar">My Page</a></li>
+      </ul>
     </nav>
 
     <section>
@@ -34,8 +38,8 @@
             <header>
                 <h1>This is article 2</h1>
                 <figure>
-                    <img src="pic2.jpg" alt="Where's your pic dummy?" width="304" height="228">
-                    <figcaption>This is the caption for the image</figcaption>
+                    <img src="assets/images/pic2.jpg" alt="Where's your pic dummy?" width="304" height="228">
+                    <figcaption>My first car</figcaption>
                 </figure>
             </header>
         </article>
